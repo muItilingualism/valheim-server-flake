@@ -60,9 +60,9 @@
       }
       // {
         overlays.default = final: prev: {
-          valheim-server-unwrapped = pkgs.callPackage ./pkgs/valheim-server {};
-          valheim-server = pkgs.callPackage ./pkgs/valheim-server/fhsenv.nix {};
-          valheim-plus = pkgs.callPackage ./pkgs/valheim-plus {};
+          valheim-server-unwrapped = final.callPackage ./pkgs/valheim-server {};
+          valheim-server = final.callPackage ./pkgs/valheim-server/fhsenv.nix {};
+          valheim-plus = final.callPackage ./pkgs/valheim-plus {};
         };
       };
 }
