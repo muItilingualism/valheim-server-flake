@@ -54,7 +54,7 @@
       })
       // {
         nixosModules = rec {
-          valheim = ./nixos-modules/valheim.nix;
+          valheim = import ./nixos-modules/valheim.nix {inherit self steam-fetcher;};
           default = valheim;
         };
       }
