@@ -10,7 +10,7 @@
   cfg = config.services.valheim;
   stateDir = "/var/lib/valheim";
 in {
-  nixpkgs.overlays = [self.overlays.default steam-fetcher.overlays.default];
+  config.nixpkgs.overlays = [self.overlays.default steam-fetcher.overlays.default];
 
   options.services.valheim = {
     enable = lib.mkEnableOption (lib.mdDoc "Valheim Dedicated Server");
