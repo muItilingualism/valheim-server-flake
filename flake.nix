@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-23.05";
     steam-fetcher = {
-      url = "github:nix-community/steam-fetcher";
+      url = "github:nix-community/steam-fetcher?ref=fetch-hash-issue";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };

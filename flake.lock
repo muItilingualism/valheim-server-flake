@@ -29,15 +29,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1694424148,
-        "narHash": "sha256-1PV7sxioWWD/yLxnkLVOL6zvlTOBl98kUv4ol4p0ozo=",
+        "lastModified": 1712726817,
+        "narHash": "sha256-jznzfhfMnsnCLvaHxU6YI6GccgkqyGdgeX98vTOyKGg=",
         "owner": "nix-community",
         "repo": "steam-fetcher",
-        "rev": "2033f99c7aee506f5af18026a3cab1c93bd0439f",
+        "rev": "54b98e9e42861a77597e818bc50c7eb5ccadf82e",
         "type": "github"
       },
       "original": {
         "owner": "nix-community",
+        "ref": "fetch-hash-issue",
         "repo": "steam-fetcher",
         "type": "github"
       }
